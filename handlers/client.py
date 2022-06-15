@@ -1,7 +1,7 @@
 from aiogram import types, Dispatcher
 from create_bot import dp, bot
 from aiogram.dispatcher.filters.state import State, StatesGroup
-from aiogram.dispatcher import FSMContext
+# from aiogram.dispatcher import FSMContext
 from aiogram.types import ParseMode
 from database import sqlite_db
 import requests
